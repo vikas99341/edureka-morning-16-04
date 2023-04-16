@@ -3,4 +3,4 @@ b=614
 c=897
 
 sum= a+b+c
-print "Sum of three numbers is :" sum
+print "Sum of 3  numbers is " sum
