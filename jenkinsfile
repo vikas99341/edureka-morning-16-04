@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo "I am in Build phase"
+                echo "I am in Build phase 2"
             }
         }
         stage('Test') {
