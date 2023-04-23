@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('SCM-Checkout') {
+            steps {
+                echo "I am in SCM-Checkout phase"
+            }
+        }
+        stage('Build') {
+            steps {
+                echo "I am in Build phase"
+            }
+        }
+        stage('Test') {
+            steps {
+                echo "I am in Test phase"
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo "I am in Deploy phase"
+            }
+        }
+    }
+}
